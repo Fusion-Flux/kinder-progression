@@ -4,7 +4,7 @@
   "title": "Kinder Progression",
   "author": "Fusion Flux",
   "description": "a mod that changes space ex / aai progression to be a bit more kind",
-  "dependencies": ["base", "aai-industry", "space-exploration","?mini-trains"],
+  "dependencies": ["base", "aai-industry", "space-exploration","?mini_trains"],
   "factorio_version": "1.1",
   "settings": "settings.lua"
 }
