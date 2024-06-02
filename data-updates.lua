@@ -135,3 +135,27 @@ data.raw.recipe["early-game-spidertron"] = {
     result = "spidertron",
     energy_required = 20
 }
+
+data.raw.recipe["big-electric-pole"] = {
+    type = "recipe",
+    name = "big-electric-pole",
+    ingredients = {
+        {"copper-cable", 10},
+        {"iron-stick", 8},
+        {"steel-plate", 5}
+    },
+    result = "big-electric-pole",
+    energy_required = .5
+}
+
+data.raw.recipe["substation"] = {
+    type = "recipe",
+    name = "substation",
+    ingredients = {
+        {"copper-cable", 20},
+        {"advanced-circuit", 5},
+        {"steel-plate", 10}
+    },
+    result = "substation",
+    energy_required = .5
+}
