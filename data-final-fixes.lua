@@ -13,3 +13,17 @@ spidertron.unit = {
     time = 30,
     count = 3000
 }
+spidertron.effects = {
+    {
+        type = "unlock-recipe",
+        recipe = "spidertron"
+    },
+    {
+        type = "unlock-recipe",
+        recipe = "early-game-spidertron"
+    },
+    {
+        type = "unlock-recipe",
+        recipe = "spidertron-remote"
+    }
+}
