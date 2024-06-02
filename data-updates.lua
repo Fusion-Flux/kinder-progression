@@ -118,3 +118,20 @@ data.raw.recipe["mini-locomotive"] = {
     result = "mini-locomotive",
     energy_required = 2
 }
+
+data.raw.recipe["early-game-spidertron"] = {
+    type = "recipe",
+    name = "early-game-spidertron",
+    ingredients = {
+        {"exoskeleton-equipment", 6},
+        {"se-rtg-equipment", 8},
+        {"rocket-launcher", 8},
+        {"rocket-control-unit", 32},
+        {"low-density-structure", 150},
+        {"radar", 8},
+        {"effectivity-module-2", 16},
+        {"raw-fish", 10}
+    },
+    result = "spidertron",
+    energy_required = 10
+}
