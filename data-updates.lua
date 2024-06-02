@@ -130,7 +130,7 @@ data.raw.recipe["early-game-spidertron"] = {
         {"low-density-structure", 150},
         {"radar", 8},
         {"effectivity-module-2", 16},
-        {"raw-fish", 10}
+        {"raw-fish", 1}
     },
     result = "spidertron",
     energy_required = 10
