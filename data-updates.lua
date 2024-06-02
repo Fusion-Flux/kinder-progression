@@ -31,7 +31,7 @@ data.raw.recipe["vanilla-inserter"] = {
         {"iron-gear-wheel", 1},
         {"electronic-circuit", 1}
     },
-    result = "burner-inserter",
+    result = "inserter",
     energy_required = 0.5
 }
 
