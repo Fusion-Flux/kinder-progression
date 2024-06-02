@@ -25,7 +25,7 @@ data.raw.recipe["locomotive"] = {
     result = "locomotive",
     energy_required = 4
 }
-
+if data.raw.recipe["mini-locomotive"] then
 data.raw.recipe["mini-locomotive"] = {
     type = "recipe",
     name = "mini-locomotive",
@@ -37,6 +37,7 @@ data.raw.recipe["mini-locomotive"] = {
     result = "mini-locomotive",
     energy_required = 2
 }
+end
 
 data.raw.recipe["big-electric-pole"] = {
     type = "recipe",
