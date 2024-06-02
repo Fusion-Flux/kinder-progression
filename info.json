@@ -1,0 +1,9 @@
+{
+  "name": "betterexpectations",
+  "version": "1.0.0",
+  "title": "Better EXpectations",
+  "author": "Fusion Flux",
+  "description": "guh.....",
+  "dependencies": ["base", "aai-industry", "space-exploration"],
+  "factorio_version": "1.1"
+}
