@@ -70,3 +70,39 @@ data.raw.recipe["electric-lab"] = {
     result = "lab",
     energy_required = 2
 }
+
+data.raw.recipe["assembling-machine-1 "] = {
+    type = "recipe",
+    name = "assembling-machine-1 ",
+    ingredients = {
+        {"electronic-circuit", 3},
+        {"iron-gear-wheel", 5},
+        {"iron-plate", 9}
+    },
+    result = "assembling-machine-1",
+    energy_required = .5
+}
+
+data.raw.recipe["electric-mining-drill "] = {
+    type = "recipe",
+    name = "electric-mining-drill ",
+    ingredients = {
+        {"electronic-circuit", 2},
+        {"iron-gear-wheel", 5},
+        {"iron-plate", 10}
+    },
+    result = "electric-mining-drill",
+    energy_required = 2
+}
+
+data.raw.recipe["splitter "] = {
+    type = "recipe",
+    name = "splitter ",
+    ingredients = {
+        {"electronic-circuit", 5},
+        {"transport-belt", 4},
+        {"iron-plate", 5}
+    },
+    result = "splitter",
+    energy_required = 1
+}
