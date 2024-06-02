@@ -5,5 +5,6 @@
   "author": "Fusion Flux",
   "description": "a mod that changes space ex / aai progression to be a bit more kind",
   "dependencies": ["base", "aai-industry", "space-exploration"],
-  "factorio_version": "1.1"
+  "factorio_version": "1.1",
+  "settings": "settings.lua"
 }

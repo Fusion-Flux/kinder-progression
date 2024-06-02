@@ -1,6 +1,7 @@
 -- data-updates.lua
 
 -- Replace a recipe
+if settings.startup["enable-alternate-recipes"].value then
 data.raw.recipe["electric-lab"] = {
     type = "recipe",
     name = "electric-lab",
@@ -12,7 +13,7 @@ data.raw.recipe["electric-lab"] = {
     result = "lab",
     energy_required = 2
 }
-
+end
 data.raw.recipe["locomotive"] = {
     type = "recipe",
     name = "locomotive",
