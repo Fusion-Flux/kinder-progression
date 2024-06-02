@@ -123,15 +123,15 @@ data.raw.recipe["early-game-spidertron"] = {
     type = "recipe",
     name = "early-game-spidertron",
     ingredients = {
-        {"exoskeleton-equipment", 6},
+        {"exoskeleton-equipment", 8},
         {"se-rtg-equipment", 8},
         {"rocket-launcher", 8},
         {"rocket-control-unit", 32},
-        {"low-density-structure", 150},
+        {"low-density-structure", 200},
         {"radar", 8},
         {"effectivity-module-2", 16},
         {"raw-fish", 1}
     },
     result = "spidertron",
-    energy_required = 10
+    energy_required = 20
 }
